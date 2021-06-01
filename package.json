@@ -1,0 +1,20 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "This is a basic node project setup with code formating. This setup will take care linting formating also.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "yarn add -D eslint prettier && npx install-peerdeps --dev eslint-config-airbnb-base && yarn add -D eslint-config-prettier eslint-plugin-prettier"
+  },
+  "author": "Mehedi Hasan Sarkar",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0"
+  }
+}
